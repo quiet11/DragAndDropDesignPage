@@ -1,18 +1,15 @@
-<script setup lang="ts">
+<template>
+  <div>
+       账号<input type="text" v-model="accountNumber"/>
+       密码<input type="text" v-model="password"/>
+       <button @click="login()">登入</button>
+  </div>
+</template>
+
+<script src="./show/ts/ExhibitionTs.ts">
 
 </script>
 
-<template>
-
-</template>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
